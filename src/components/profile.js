@@ -3,6 +3,9 @@ import {Grid, Cell, Tabs, Tab} from 'react-mdl';
 import Education from './education';
 import Skills from './skills';
 import Footer from './footer';
+import {Elements, StripeProvider} from 'react-stripe-elements';
+import Example from './example';
+
 class Profile extends Component{
   constructor(props){
     super(props);
@@ -44,8 +47,12 @@ toggleCategories(){
       )
     }
   }
+
   render(){
+
+
     return(
+
       <div>
       <Grid>
         <Cell col={4}>
@@ -61,12 +68,7 @@ toggleCategories(){
         Hello!!!!!Hello!!!!!Hello!!!!!Hello!!!!!Hello!!!!!Hello!!!!!
         Hello!!!!!Hello!!!!!Hello!!!!!Hello!!!!!Hello!!!!!Hello!!!!!Hello!!!!!</p>
         <hr style ={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-        <h5>Address</h5>
-        <p>California</p>
-        <h5>Phone Number</h5>
-        <p>123456789</p>
-        <h5>Email</h5>
-        <p>xxx@gmail.com</p>
+        <Example/>
         <hr style ={{borderTop: '3px solid #833fb2', width: '50%'}}/>
         </Cell>
         <Cell className="resume-right-col" col={8}>

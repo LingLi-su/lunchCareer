@@ -49,6 +49,7 @@ logout(){
       </label>
       </div>
       <Projects/>
+      
       <Story/>
       <Footer/>
       </div>

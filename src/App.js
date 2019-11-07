@@ -1,10 +1,11 @@
-import React from 'react';
+import React, {useState, useRef, useEffect} from 'react';
 import './App.css';
 import {Layout, Header, Navigation, Drawer, Content} from 'react-mdl';
 import Main from './components/main';
 import {Link} from 'react-router-dom';
 import {Elements, StripeProvider} from 'react-stripe-elements';
-import CheckoutForm from './CheckoutForm';
+
+
 
 
 

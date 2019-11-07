@@ -8,7 +8,7 @@ import 'react-mdl/extra/material.js';
 import 'bootstrap/dist/css/bootstrap.css';
 import {BrowserRouter} from 'react-router-dom';
 import {Elements, StripeProvider} from 'react-stripe-elements';
-import CheckoutForm from './CheckoutForm';
+
 
 
 
